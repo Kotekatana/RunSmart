@@ -1,0 +1,41 @@
+.rewievs{
+    min-height: 925px;
+    .title{
+        font-size: 30px;
+        font-weight: 700;
+        color: #0d0d0d;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    &__photo{
+        margin-right: 60px;
+    }
+    &__item{
+        display: flex;
+        justify-content: baseline;
+    }
+    &__descr{
+        h3{
+            font-size: 18px;
+            font-weight: 700;
+            color: #0d0d0d;
+            margin-bottom: 10px;
+        }
+        h4{
+            font-size: 14px;
+            font-weight: 300;
+            color: #646464;
+            margin-bottom: 19px;
+        }
+        p{
+            font-size: 16px;
+            line-height: 1.2;
+            font-weight: 300;
+            color: #0d0d0d;
+        }
+    }
+    hr{
+        border-color: #f6f6f6;
+        margin: 50px auto;
+    }
+}
